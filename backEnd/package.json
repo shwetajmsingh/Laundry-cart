@@ -8,7 +8,7 @@
     "dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Group 8",
+  "author": "Group 2",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.0.1",
