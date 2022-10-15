@@ -1,0 +1,52 @@
+/* styling header */
+.header-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 2px 48px #0000000f;
+  z-index: 1;
+  position: relative;
+}
+
+.header-headname {
+  margin-left: 120px;
+  font: normal normal 900 20px/27px Avenir;
+  letter-spacing: 1.8px;
+  color: #5861ae;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+.header-nav-wrapper {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.header-nav-wrapper > div {
+  height: 100%;
+  width: 115px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: normal normal normal 14px/19px Avenir;
+  letter-spacing: 1.05px;
+  color: #565657;
+  border-left: 1px solid #e3e3e3;
+}
+
+.header-nav-wrapper .header-sign-in {
+  background: #5861ae 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+  color: #ffffff;
+}
+
+.header-sign-in > a {
+  text-decoration: none;
+  color: white;
+}

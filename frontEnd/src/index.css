@@ -1,13 +1,35 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: avenir-black;
+  src: url(../public/fonts/AvenirBlack.otf);
+}
+
+@font-face {
+  font-family: avenir-book;
+  src: url(../public/fonts/AvenirBook.otf);
+}
+
+@font-face {
+  font-family: openSans-bold;
+  src: url(../public/fonts/OpenSansBold.ttf);
+}
+
+@font-face {
+  font-family: openSans-italic;
+  src: url(../public/fonts/OpenSansItalic.ttf);
+}
+
+@font-face {
+  font-family: openSans-regular;
+  src: url(../public/fonts/OpenSansRegular.ttf);
+}
+
+@font-face {
+  font-family: openSans-semibold;
+  src: url(../public/fonts/OpenSansSemibold.ttf);
 }

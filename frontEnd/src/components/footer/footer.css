@@ -1,0 +1,202 @@
+/* styles for Referral */
+
+.referral-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 80px;
+  background: #f8f9ff 0% 0% no-repeat padding-box;
+  box-shadow: 0px -3px 6px #0000000b;
+  opacity: 1;
+  border-top: 2px solid #5861ae;
+}
+
+.referral-name {
+  font: normal normal 600 24px/26px openSans-regular;
+  letter-spacing: 0.96px;
+  color: #5861ae;
+  opacity: 1;
+}
+
+.referral-terms {
+  font: italic normal normal 10px/26px Open Sans;
+  letter-spacing: 0.4px;
+  color: #3d3d43;
+  opacity: 1;
+}
+
+/* styles for copyright */
+
+.copyright-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #182838 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  opacity: 1;
+  height: 50px;
+  width: 100%;
+  clear: both;
+}
+
+.copyright-info {
+  font-family: avenir-book;
+  letter-spacing: 0.12px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+/* styles for about */
+
+.about-wrapper {
+  height: 200px;
+  background: transparent url('../../../public/images/Footer.png') 0% 0%
+    no-repeat padding-box;
+  opacity: 1;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.about-wrapper > div {
+  margin-top: 4%;
+}
+
+.about-head {
+  /* UI Properties */
+  font-family: avenir-black;
+  letter-spacing: 0.18px;
+  color: #182838;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+.about-desc {
+  /* UI Properties */
+  font: normal normal normal 15px/20px avenir-book;
+  letter-spacing: 0.6px;
+  color: #3d3d43;
+  text-transform: capitalize;
+  opacity: 1;
+  margin-top: 20px;
+}
+
+.home-head {
+  /* UI Properties */
+  font-family: avenir-black;
+  letter-spacing: 0.16px;
+  color: #182838;
+  text-transform: capitalize;
+  opacity: 1;
+}
+
+.home-sign-in {
+  font: normal normal normal 14px/24px avenir-book;
+  letter-spacing: 0.14px;
+  color: #182838;
+  text-transform: capitalize;
+  opacity: 1;
+  margin-top: 20px;
+}
+
+.home-register {
+  /* UI Properties */
+  font: normal normal normal 14px/24px avenir-book;
+  letter-spacing: 0.14px;
+  color: #182838;
+  text-transform: capitalize;
+  opacity: 1;
+  margin-top: 20px;
+}
+
+.pricing-head {
+  font-family: avenir-black;
+  letter-spacing: 0.16px;
+  color: #182838;
+  text-transform: capitalize;
+  opacity: 1;
+}
+
+.career-head {
+  font-family: avenir-black;
+  letter-spacing: 0.16px;
+  color: #182838;
+  text-transform: capitalize;
+  opacity: 1;
+}
+
+.career-blogs {
+  font: normal normal normal 14px/24px avenir-book;
+  letter-spacing: 0.14px;
+  color: #182838;
+  text-transform: capitalize;
+  opacity: 1;
+  margin-top: 20px;
+}
+
+.career-create {
+  font: normal normal normal 14px/24px avenir-book;
+  letter-spacing: 0.14px;
+  color: #182838;
+  text-transform: capitalize;
+  opacity: 1;
+  margin-top: 20px;
+}
+
+.contact-head {
+  font-family: avenir-black;
+  letter-spacing: 0.16px;
+  color: #182838;
+  text-transform: capitalize;
+  opacity: 1;
+}
+
+.social-media-head {
+  font-family: avenir-black;
+  letter-spacing: 0.16px;
+  color: #182838;
+  text-transform: capitalize;
+  opacity: 1;
+}
+
+.social-media-icons {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.facebook-icon {
+  /* Layout Properties */
+  top: 1010px;
+  left: 1109px;
+  width: 20px;
+  height: 20px;
+  /* UI Properties */
+  background: transparent url('../../../public/images/facebook.png') 0% 0%
+    no-repeat padding-box;
+  opacity: 0.6;
+}
+
+.instagram-icon {
+  /* Layout Properties */
+  top: 1010px;
+  left: 1149px;
+  width: 19px;
+  height: 19px;
+  /* UI Properties */
+  background: transparent url('../../../public/images/instagram.png') 0% 0%
+    no-repeat padding-box;
+  opacity: 0.6;
+}
+
+.linkedin-icon {
+  /* Layout Properties */
+  top: 1010px;
+  left: 1189px;
+  width: 18px;
+  height: 18px;
+  /* UI Properties */
+  background: transparent url('../../../public/images/linkedin.png') 0% 0%
+    no-repeat padding-box;
+  opacity: 0.6;
+}

@@ -1,0 +1,42 @@
+.heading {
+  display: flex;
+  justify-content: space-between;
+  width: 96%;
+  margin-left: 3%;
+  margin-top: 2%;
+}
+.orders-bar {
+  width: 50%;
+  font-size: 18px;
+}
+.btn-search {
+  width: 46%;
+  display: flex;
+  align-items: end;
+  justify-content: flex-end;
+}
+/* .button-create{
+    width: 107px;
+    height: 32px;
+    border-radius:4px;
+    background-color: white;
+    color: #5861AE;
+
+} */
+.btn-create {
+  width: 107px;
+  height: 32px;
+  border-radius: 4px;
+  border: 1px solid #5861ae;
+  background-color: white;
+  color: #5861ae;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.btn-create:hover {
+  color: white;
+  background-color: #5861ae;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
