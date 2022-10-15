@@ -1,0 +1,31 @@
+.side-bar {
+  background: #5861ae 0% 0% no-repeat padding-box;
+  height: 89vh;
+  float: left;
+  width: 4vw;
+  height: 100vh;
+}
+.image-icons {
+  margin-top: 5vh;
+  height: 10vh;
+  width: 100%;
+}
+.side-bar .img1,
+.side-bar .img2,
+.side-bar .img3 {
+  padding-top: 4vh;
+  cursor: pointer;
+  width: 100%;
+}
+.side-bar .img9 img {
+  background-color: white;
+  border-radius: 50%;
+}
+
+.side-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}

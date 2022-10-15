@@ -1,0 +1,108 @@
+.register-wrapper {
+  height: 80vh;
+  width: 65%;
+  display: inline-block;
+  background: #f8f9ff 0% 0% no-repeat padding-box;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.register-head {
+  font-family: avenir-book;
+  font-size: x-large;
+  letter-spacing: 1.28px;
+  color: #5861ae;
+  text-transform: uppercase;
+  opacity: 1;
+  margin-top: 2%;
+  margin-left: 10%;
+}
+
+.register-form {
+  height: 100%;
+}
+
+.register-form > form {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.register-form-data1,
+.register-form-data2,
+.register-form-data3,
+.register-form-data4 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.register-form-data1 input,
+.register-form-data2 input,
+.register-form-data3 input,
+.register-form-data4 input {
+  width: 300px;
+  border: none;
+  border-bottom: 1px solid #989898;
+  background: #b9c0fd1a 0% 0% no-repeat padding-box;
+  opacity: 1;
+  height: 40px;
+  background: none;
+  outline: none;
+  padding-left: 5px;
+  font: normal normal normal 17px/27px openSans-regular;
+  letter-spacing: 0.6px;
+  color: #000;
+  opacity: 1;
+}
+
+.register-form-terms {
+  display: flex;
+  justify-content: center;
+}
+
+.register-form-terms input {
+  width: 22px;
+  height: 22px;
+  margin-right: 1%;
+  background: transparent;
+  border: 1px solid #707070;
+  border-radius: 3px;
+  opacity: 1;
+}
+
+.register-form-terms span {
+  text-decoration: underline;
+  font: normal normal normal 14px/20px openSans-regular;
+  letter-spacing: 0.49px;
+  color: #5861ae;
+  opacity: 1;
+}
+
+.register-form-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.register-form-btn button {
+  width: 150px;
+  height: 50px;
+  /* UI Properties */
+  background: #5861ae 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+  border: 2px solid #5861ae;
+  font: normal normal bold 15px/20px openSans-regular;
+  letter-spacing: 0.3px;
+  color: #ffffff;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.register-form-btn button:hover {
+  color: #5861ae;
+  background-color: #fff;
+  transition: 0.3s ease;
+}

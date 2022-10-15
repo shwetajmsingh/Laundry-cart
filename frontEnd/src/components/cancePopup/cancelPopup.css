@@ -1,0 +1,63 @@
+.orders-confirm {
+  width: 25rem;
+  height: 12rem;
+  position: absolute;
+  left: calc(50% - 10rem);
+  top: 15%;
+
+  /* UI Properties */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  opacity: 1;
+}
+
+.order-confirm-alert {
+  height: 2.5rem;
+  background: #5861ae 0% 0% no-repeat padding-box;
+  border-radius: 2px 2px 1px 1px;
+  opacity: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.order-confirm-alert .alert {
+  font: normal normal 600 14px/19px openSans-regular;
+  letter-spacing: 0.34px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.orders-confirm-content {
+  height: 100%;
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.orders-confirm-content-info {
+  width: 14rem;
+  text-align: center;
+  font: normal normal normal 14px/19px openSans-regular;
+  letter-spacing: 0.34px;
+  color: #1b2734;
+}
+
+.orders-confirm-content-btn {
+  width: 8rem;
+  height: 2.7rem;
+  background: #5861ae 0% 0% no-repeat padding-box;
+  border: 1px solid #5861ae;
+  border-radius: 4px;
+  opacity: 1;
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+.order-confirm-alert-cross > img {
+  height: 1rem;
+  width: 1rem;
+}

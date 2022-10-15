@@ -1,0 +1,108 @@
+.sign-in-wrapper {
+  height: 80vh;
+}
+
+/* styling the right part */
+
+.sign-in-right {
+  width: 50%;
+}
+
+.sign-in-right-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 100%;
+  margin-left: 20%;
+}
+
+.sign-in-right-form {
+  height: 40%;
+  margin-top: -20%;
+}
+
+.sign-in-right-form > form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+  position: relative;
+}
+
+.sign-in-right-head {
+  font-family: avenir-book;
+  font-size: xx-large;
+  letter-spacing: 1.28px;
+  color: #4552c1;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+.sign-in-right-form input {
+  width: 398px;
+  border: none;
+  border-bottom: 1px solid #989898;
+  background: none;
+  opacity: 1;
+  height: 40px;
+  font: normal normal normal 17px/27px openSans-regular;
+  letter-spacing: 0.6px;
+  color: #000;
+  opacity: 1;
+  padding-left: 5px;
+}
+
+.sign-in-right-form input::placeholder {
+  color: #77838f;
+}
+
+.sign-in-right-form span {
+  text-align: right;
+  font: normal normal medium 16px/26px avenir-book;
+  letter-spacing: 0.64px;
+  color: #4552c1;
+  text-transform: capitalize;
+  opacity: 1;
+  margin-top: -5%;
+}
+
+.sign-in-right-form span:hover {
+  cursor: pointer;
+}
+
+.sign-in-right-form button {
+  width: 150px;
+  height: 50px;
+  /* UI Properties */
+  background: #4552c1 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+  border: 2px solid #4552c1;
+  font: normal normal bold 15px/20px openSans-regular;
+  letter-spacing: 0.3px;
+  color: #ffffff;
+  opacity: 1;
+  margin-left: 125px;
+  margin-bottom: -10%;
+  cursor: pointer;
+}
+
+.sign-in-right-form input:focus {
+  outline: none;
+  background: none;
+}
+
+.sign-in-right-form button:hover {
+  background-color: #fff;
+  color: #4552c1;
+  transition: 0.3s ease;
+}
+
+.sign-in-right-form .password-padlock {
+  width: 15px;
+  height: 20px;
+  position: absolute;
+  right: 5px;
+  cursor: pointer;
+}
