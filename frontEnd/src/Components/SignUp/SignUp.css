@@ -1,0 +1,116 @@
+.reg-page {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+  width: 100%;
+}
+.left-reg {
+  width: 402px;
+  height: 680px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+}
+
+.left-reg h1 {
+  text-align: left;
+  font-size: 62px;
+  color: #5861ae;
+  text-transform: capitalize;
+}
+.left-reg p {
+  color: #565657;
+  font-size: 20px;
+  margin-top: 14px;
+}
+.content-reg {
+  margin: 250px 69px;
+}
+.btn-sec {
+  margin-top: 74px;
+}
+.btn-sec p {
+  font-size: 16px;
+  color: #565657;
+}
+.vll {
+  border-right: 2px solid #5861ae;
+  height: 142px;
+  padding-top: 95px;
+  width: 146px;
+}
+.right-reg {
+  width: 1250px;
+  height: 680px;
+  background: #b9c0fd1a 0% 0% no-repeat padding-box;
+}
+
+.form-login {
+  /* margin: 45px auto ; */
+  text-align: center;
+  /* width: 90%; */
+}
+
+.form-login {
+  margin: 182px auto;
+  text-align: center;
+
+  width: 398px;
+}
+
+.form-login h3 {
+  text-align: left;
+  font-size: 32px;
+  letter-spacing: 1.28px;
+  color: #4552c1;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+  font-size: 32px;
+  font-weight: normal;
+}
+.form-reg {
+  width: 90%;
+  margin: 45px auto;
+}
+
+.division {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.reg-field {
+  width: 398px;
+}
+input {
+  border: none;
+  outline: none;
+  padding: 0.5rem 1rem;
+  text-align: left;
+  font: normal normal 600 17px/27px;
+  letter-spacing: 0.6px;
+  color: #424548;
+  background: #f8f9ff 0% 0% no-repeat padding-box;
+}
+
+.under-line {
+  height: 2px;
+  background-color: #5861ae;
+}
+
+.field {
+  margin: 10px 0px;
+  text-align: left;
+}
+
+.checkbox {
+  display: flex;
+  margin: 50px auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkbox input {
+  margin-right: 20px;
+}
+.checkbox label {
+  text-decoration: underline;
+}
