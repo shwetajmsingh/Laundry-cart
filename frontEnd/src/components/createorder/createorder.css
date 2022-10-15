@@ -1,0 +1,266 @@
+/*----- Header ------ */
+
+.createorder-topContent {
+  display: flex;
+  justify-content: space-between;
+  width: 103%;
+  align-items: center;
+  padding-right: 20px;
+}
+
+.createorder-h2 {
+  text-align: left;
+  font: normal normal 600 16px/48px openSans-regular;
+  font-family: sans-serif;
+  letter-spacing: 0px;
+  color: #1e2022;
+  opacity: 1;
+}
+
+.createorder-search {
+  width: 12%;
+  border-bottom: 2px solid #e0e0e0;
+  margin-left: 10px;
+}
+
+/* Table-Content */
+
+.createorder-table {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100.3%;
+  height: 40px;
+  padding: 0px 20px;
+  margin-top: 20px;
+  margin: 0 auto;
+  text-align: center;
+  background: #2f2f2f;
+}
+
+.createorder-table p {
+  text-align: left;
+  font: normal normal 100 14px/48px;
+  font-family: sans-serif;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.createorder-table-wash-type {
+  margin-right: 8%;
+}
+
+.createorder-table-reset {
+  width: 2%;
+}
+
+/* ------------------------------- */
+
+.createorder-allProduct {
+  border-collapse: collapse;
+  padding: 30px 50px 0 50px;
+  width: 1300px;
+  margin-left: 3%;
+  height: 90vh;
+  position: relative;
+}
+
+/* Product-Types */
+
+.createorder-product-img {
+  margin-top: 10px;
+  width: 40px;
+  height: 45px;
+  border-radius: 2px;
+}
+
+.createorder-product-h3 {
+  height: 10px;
+  text-align: left;
+  font-size: 12px;
+  font: normal normal 600 14px/48px openSans-regular;
+  font-family: sans-serif;
+  letter-spacing: 0px;
+  color: #5861ae;
+  opacity: 1;
+  margin-left: 4%;
+  margin-bottom: 10px;
+}
+
+.createorder-product-p {
+  width: 193px;
+  text-align: left;
+  font: normal normal normal 10px/48px openSans-regular;
+  font-family: sans-serif;
+  letter-spacing: 0px;
+  color: #76788b;
+  opacity: 1;
+  margin-left: 4%;
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+
+/* --------------------------- */
+
+/* Wash Type */
+
+.createorder-wash-section {
+  width: 400px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.createorder-washing-machine {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.createorder-ironing {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.createorder-towel {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.createorder-towel-icon {
+  width: 33px;
+}
+
+.createorder-bleach {
+  opacity: 1;
+  cursor: pointer;
+}
+/* ----------------------------------- */
+
+.createorder-price {
+  /* UI Properties */
+  text-align: left;
+  font-weight: 600;
+  letter-spacing: -3px;
+  color: #605959;
+  opacity: 0.73;
+}
+
+.createorder-price > p {
+  width: 7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #000000;
+  position: relative;
+  left: 3rem;
+}
+
+.createorder-price-two {
+  font: normal normal bold 24px/33px openSans-regular;
+  letter-spacing: 0.58px;
+  color: #5861ae;
+  opacity: 1;
+}
+
+.createorder-price-one {
+  font: normal normal 600 18px/24px openSans-regular;
+  letter-spacing: 0.43px;
+  color: #221919;
+  opacity: 1;
+}
+
+.createorder-price-calculation {
+  width: 200px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.createorder-price-calculation-btn {
+  width: 81px;
+  height: 32px;
+  border: 1px solid #5861ae;
+  border-radius: 4px;
+  letter-spacing: 0px;
+  color: #5861ae;
+  background-color: #ffffff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.createorder-price-calculation-btn:hover {
+  background-color: #5861ae;
+  color: #ffffff;
+  transition: 0.3s ease;
+}
+
+.createorder-data {
+  width: 100%;
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+  height: 65px;
+  border: 2px solid rgba(238, 229, 229, 0.7);
+}
+
+.createorder-productList {
+  display: flex;
+}
+
+.createorder-input {
+  width: 25%;
+  margin: 0px auto;
+  margin-left: 12%;
+  border: 2px solid #b1b3c5;
+  padding: 0.25rem 0.5rem;
+}
+
+/* Lower Button */
+
+.createorder-lowerContent {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 2%;
+  width: 103%;
+}
+
+.createorder-cancel-btn {
+  width: 107px;
+  height: 32px;
+  /* UI Properties */
+  border: 1px solid #5861ae;
+  border-radius: 4px;
+  opacity: 1;
+  background-color: #ffffff;
+  color: #5861ae;
+  cursor: pointer;
+}
+
+.createorder-cancel-btn:hover {
+  background-color: red;
+  color: #ffffff;
+  border: none;
+  transition: 0.3s ease;
+}
+
+.createorder-proceed-btn {
+  width: 107px;
+  height: 32px;
+  /* UI Properties */
+  background: #5861ae 0% 0% no-repeat padding-box;
+  border: 1px solid #5861ae;
+  border-radius: 4px;
+  opacity: 1;
+  margin-left: 1%;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.createorder-proceed-btn:hover {
+  background-color: green;
+  color: #ffffff;
+  border: none;
+  transition: 0.3s ease;
+}
