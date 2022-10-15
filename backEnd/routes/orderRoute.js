@@ -55,7 +55,7 @@ router.post("/addOrder", fetchuser, async (req, res) => {
 
 //update order
 
-router.put("/updateOrder/:id", async (req, res) => {
+router.put("/updateOrder/:id", fetchuser, async (req, res) => {
   // console.log(req.body.status, "update order");
   const {
     orderId,
@@ -101,7 +101,7 @@ router.put("/updateOrder/:id", async (req, res) => {
         { new: true }
       )
       .then((data) => {
-        return res.status(200).json({ data: data });
+        return res.status(200).json({ updateorder });
       })
       .catch((err) => {
         return res.send("some error");
